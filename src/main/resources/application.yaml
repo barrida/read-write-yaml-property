@@ -1,0 +1,13 @@
+spring:
+  profiles: local
+  application:
+    name: SERVICE-V1
+
+server:
+  port: 8967
+  ssl:
+    enabled: false
+
+mocking:
+  enabled: false
+  postcodes: NE43YV,QA12ED,DF53TH
